@@ -1,0 +1,12 @@
+function somaArray(array) {
+    let soma = 0;
+    for (let i = 0; i < array.length; i++) {
+        soma += array[i];
+    }
+    return soma;
+}
+
+console.log(somaArray([1,1,1,1])); //retorna 4
+console.log(somaArray([1,2,3])); //retorna 6
+console.log(somaArray([-1,1])); //retorna 0
+
